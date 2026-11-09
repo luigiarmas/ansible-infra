@@ -1,0 +1,6 @@
+---
+# defaults file for base
+base_directorios_lab:
+  - logs
+  - scripts
+  - respaldos

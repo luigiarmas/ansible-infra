@@ -1,0 +1,9 @@
+# --- Datos reales del laboratorio: NUNCA al repositorio público ---
+inventory.ini
+group_vars/*/vault.yml
+
+# --- Archivos generados localmente ---
+# Caché de ansible-lint y ansible-compat
+.ansible/
+*.retry
+__pycache__/

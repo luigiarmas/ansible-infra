@@ -1,0 +1,4 @@
+# Colecciones que necesita este proyecto, con versión fija
+collections:
+  - name: ansible.posix
+    version: "1.5.4"

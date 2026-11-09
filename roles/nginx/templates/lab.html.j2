@@ -1,0 +1,9 @@
+{# Plantilla de la página del laboratorio. La genera Ansible: no editar a mano en el servidor. #}
+<h1>{{ inventory_hostname }}</h1>
+<p>{{ rol_servidor }} </p>
+<ul>
+    <li>Entorno: {{ entorno }}</li>
+    <li>Responsable: {{ responsable }}</li>
+    <li>Familia de sistema: {{ ansible_facts['os_family']}}</li>
+</ul>
+<p>Gestionado por Ansible. Los cambios hechos a mano se revierten.</p>

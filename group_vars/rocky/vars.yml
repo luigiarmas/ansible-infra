@@ -1,0 +1,11 @@
+---
+# Variables solo para el grupo rocky
+rol_servidor: Servidor web de prueba
+
+paquetes_base:
+  - tar
+  - tcpdump
+  - policycoreutils-python-utils
+
+# Contraseña de sudo para become. El valor real está cifrado en vault.yml.
+ansible_become_password: "{{ vault_become_password }}"

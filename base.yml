@@ -1,0 +1,7 @@
+---
+# Playbook: configuración base para TODOS los servidores del laboratorio
+- name: Configuración base del laboratorio
+  hosts: all
+  become: true
+  roles:
+    - base

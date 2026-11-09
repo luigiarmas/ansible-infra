@@ -1,0 +1,5 @@
+---
+# defaults file for nginx
+# Valor seguro por defecto: la cabecera Server no muestra la versión de nginx.
+# Entre comillas: sin ellas, YAML lo convierte en el booleano False.
+nginx_server_tokens: "off"

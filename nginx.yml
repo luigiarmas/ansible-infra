@@ -1,0 +1,7 @@
+---
+# Playbook : servidor web nginx en Rocky Linux
+- name: Servidor web nginx en Rocky
+  hosts: rocky
+  become: true
+  roles:
+    - nginx

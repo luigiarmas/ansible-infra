@@ -1,0 +1,17 @@
+---
+# Metadatos del rol base
+galaxy_info:
+  author: Luigi Armas
+  description: Paquetes base por familia (dnf/apt) y directorios de trabajo del laboratorio
+  license: MIT
+  min_ansible_version: "2.21"
+  platforms:
+    - name: EL
+      versions:
+        - "9"
+    - name: Ubuntu
+      versions:
+        - all
+  galaxy_tags:
+    - base
+dependencies: []

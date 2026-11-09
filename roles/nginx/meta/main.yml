@@ -1,0 +1,16 @@
+---
+# Metadatos del rol nginx
+galaxy_info:
+  author: Luigi Armas
+  description: nginx con página de laboratorio, server_tokens off y HTTP abierto en firewalld (familia RedHat)
+  license: MIT
+  min_ansible_version: "2.21"   # entre comillas: el esquema exige texto. 2.21 = soporte de sudo-rs
+  platforms:
+    - name: EL
+      versions:
+        - "9"
+  galaxy_tags:
+    - nginx
+    - web
+    - hardening
+dependencies: []   # decisión de diseño: firewalld se asegura dentro del rol, sin depender de otro

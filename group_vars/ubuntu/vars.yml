@@ -1,0 +1,8 @@
+---
+# Variables solo para el grupo Ubuntu
+rol_servidor: Servidor de la agencia
+paquetes_base:
+  - tcpdump
+  - curl
+
+ansible_become_password: "{{ vault_become_password }}"

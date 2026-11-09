@@ -1,0 +1,8 @@
+---
+# Variables para TODOS los servidores
+entorno: laboratorio
+responsable: Luigi
+
+# Python de los SERVIDORES gestionados (no el del nodo de control).
+# Explícito para que el venv del nodo de control no se use en rocky-lab (connection=local).
+ansible_python_interpreter: /usr/bin/python3

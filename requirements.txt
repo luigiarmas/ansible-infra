@@ -1,0 +1,6 @@
+# Toolchain del nodo de control. Requiere Python 3.12 o superior.
+# Instalación:
+#   python3.12 -m venv ~/.venvs/ansible
+#   ~/.venvs/ansible/bin/pip install -r requirements.txt
+ansible-core==2.21.6   # 2.21+: soporte de sudo-rs (Ubuntu 25.10+), issue #87423
+ansible-lint==26.11.0
